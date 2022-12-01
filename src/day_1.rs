@@ -59,5 +59,5 @@ pub fn show_results_day_1(){
     for elf in best_three{
         total_sum += elf.calories;
     }
-    println!("Best three calories: {}", total_sum);
+    println!("Sum of the top three calories: {}", total_sum);
 }
