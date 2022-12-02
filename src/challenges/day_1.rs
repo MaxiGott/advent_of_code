@@ -1,13 +1,5 @@
 extern crate core;
 
-use std::fs;
-
-
-fn read_file_string(filepath: &str) -> Result<String, Box<dyn std::error::Error>> {
-    let data = fs::read_to_string(filepath)?;
-    Ok(data)
-}
-
 struct Elf {
     elf_id: usize,
     calories: i32
@@ -22,9 +14,9 @@ impl Elf {
     }
 }
 
-pub fn show_results_day_1(){
+pub fn show_results(){
     // read file
-    let input_res = read_file_string("data/input_1.txt");
+    let input_res = crate::utils::helper::read_file_string("data/input_1.txt");
     let input = match input_res {
         Ok(value) => value,
         Err(err) => panic!("{}", err)
