@@ -80,6 +80,8 @@ fn decide_game_2(opp: &str, my: &str) -> i32{
 
 
 pub fn show_results(){
+    println!("Day 2: ");
+
     let input_res = crate::utils::helper::read_file_string("data/input_2.txt");
     let input = match input_res {
        Ok(value) => value,

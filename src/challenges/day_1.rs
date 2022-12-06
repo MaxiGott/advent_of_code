@@ -15,6 +15,8 @@ impl Elf {
 }
 
 pub fn show_results(){
+    println!("Day 1: ");
+
     // read file
     let input_res = crate::utils::helper::read_file_string("data/input_1.txt");
     let input = match input_res {
