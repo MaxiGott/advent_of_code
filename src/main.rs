@@ -10,6 +10,7 @@ fn main(){
     // challenges::day_3::show_results();
     // challenges::day_4::show_results();
     // challenges::day_5::show_results();
-    challenges::day_6::show_results();
-
+    // challenges::day_6::show_results();
+    // challenges::day_7::show_results();
+    challenges::day_8::show_results();
 }

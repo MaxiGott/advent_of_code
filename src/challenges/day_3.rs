@@ -1,7 +1,6 @@
 extern crate core;
 
 use std::collections::HashSet;
-use std::ptr::null;
 use regex::Regex;
 
 
